@@ -27,7 +27,9 @@ class List extends Component {
   }
   render() {
     return (
-      <View>
+      <View
+      style={styles.body}
+      >
         {
           this.state.names.map((item, index) => (
             <TouchableOpacity
@@ -48,6 +50,9 @@ class List extends Component {
 export default List;
 
 const styles = StyleSheet.create({
+  body:{
+    marginTop:100
+  },
   container: {
     padding: 10,
     marginTop: 3,

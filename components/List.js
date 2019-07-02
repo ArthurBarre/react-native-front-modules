@@ -14,11 +14,11 @@ class List extends Component {
       },
       {
         id: 2,
-        name: 'Beniblo'
+        name: 'Benibli'
       },
       {
         id: 3,
-        name: 'Beniblu'
+        name: 'Beniblo'
       },
     ]
   }

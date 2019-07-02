@@ -3,17 +3,37 @@ import { StyleSheet, Text, View } from 'react-native';
 import PresentationalComponent from './components/PresentationalComponent'
 
 export default class App extends React.Component {
-  state = {
-    myState: 'consectetur adipisicing elit, used do eiusLorem ipsum dolor sit amet, consectetur adipisicing elit, used do eiusLorem ipsum dolor sit amet, consectetur adipisicing elit, used do eiusLorem ipsum dolor sit amet, consectetur adipisicing elit, used do eiusLorem ipsum dolor sit amet, consectetur adipisicing elit, used do eiusLorem ipsum dolor sit amet, consectetur adipisicing elit, used do eiusLorem ipsum dolor sit amet, consectetur adipisicing elit, used do eiusconsectetur adipisicing elit, used do eiusLorem ipsum dolor sit amet, consectetur adipisicing elit, used do eiusLorem ipsum dolor sit amet, consectetur adipisicing elit, used do eiusLorem ipsum dolor sit amet, consectetur adipisicing elit, used do eiusLorem ipsum dolor sit amet, consectetur adipisicing elit, used do eiusLorem ipsum dolor sit amet, consectetur adipisicing eli, used do eiusLorem ipsum dolor sit amet, consectetur adipisicing elit, used do eius'
-  }
-  updateState = () => {
-    this.setState({ myState: 'The state is updated' })
-  }
   render() {
     return (
       <View>
-        <PresentationalComponent myState={this.state.myState} updateState={this.updateState} />
+        <View style={styles.redbox}></View>
+        <View style={styles.bluebox}></View>
+        <View style={styles.orangebox}></View>
       </View>
     );
   }
 }
+const styles = StyleSheet.create({
+  container: {
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'grey',
+    height: 900
+  },
+  redbox: {
+    width: 200,
+    height: 200,
+    backgroundColor: 'red'
+  },
+  bluebox: {
+    width: 200,
+    height: 200,
+    backgroundColor: 'steelblue'
+  },
+  orangebox: {
+    width: 200,
+    height: 200,
+    backgroundColor: 'orange'
+  }
+})

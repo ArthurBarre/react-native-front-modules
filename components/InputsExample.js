@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text, TouchableOpacity, TextInput, StyleSheet } from 'react-native';
 
-class Inputs extends Component {
+class InputsExample extends Component {
   state = {
     email: '',
     password: ''
@@ -44,7 +44,7 @@ class Inputs extends Component {
     )
   }
 }
-export default Inputs;
+export default InputsExample;
 
 const styles = StyleSheet.create({
   container: {

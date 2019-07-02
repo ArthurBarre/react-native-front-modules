@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Text, Image, View, StyleSheet, ScrollView } from 'react-native';
 
-class ScrollViews extends Component {
+class ScrollViewExample extends Component {
   state = {
     names: [
       { 'name': 'Ben', 'id': 1 },
@@ -34,7 +34,7 @@ class ScrollViews extends Component {
     )
   }
 }
-export default ScrollViews;
+export default ScrollViewExample;
 
 const styles = StyleSheet.create({
   item: {

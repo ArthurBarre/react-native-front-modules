@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Text, View } from 'react-native'
 
-const PresentationalComponent = (props) => {
+const ComponentExample = (props) => {
   return (
     <View>
       <Text onPress={props.updateState}>
@@ -10,4 +10,4 @@ const PresentationalComponent = (props) => {
     </View>
   )
 }
-export default PresentationalComponent
+export default ComponentExample

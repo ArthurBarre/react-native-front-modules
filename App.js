@@ -1,15 +1,16 @@
 import React from 'react';
 import { Text, View } from 'react-native';
-//import PresentationalComponent from './components/PresentationalComponent'
-//import FlexBox from './components/FlexBox'
-import List from './components/List';
-import Inputs from './components/Inputs';
-import ScrollViews from './components/ScrollViews';
+import ComponentExample from './components/ComponentExample'
+import FlexBoxExample from './components/FlexBoxExample'
+import ListExample from './components/ListExample';
+import InputsExample from './components/InputsExample';
+import ScrollViewExample from './components/ScrollViewExample';
+import ImageExample from './components/ImageExample'
 class App extends React.Component {
   render() {
     return (
       <View>
-        <ScrollViews></ScrollViews>
+        <FlexBoxExample />
       </View>
     );
   }

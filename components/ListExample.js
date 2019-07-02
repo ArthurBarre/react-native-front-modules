@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Text, View, TouchableOpacity, StyleSheet } from 'react-native';
 
-class List extends Component {
+class ListExample extends Component {
   state = {
     names: [
       {
@@ -28,7 +28,7 @@ class List extends Component {
   render() {
     return (
       <View
-      style={styles.body}
+        style={styles.body}
       >
         {
           this.state.names.map((item, index) => (
@@ -47,11 +47,11 @@ class List extends Component {
     )
   }
 }
-export default List;
+export default ListExample;
 
 const styles = StyleSheet.create({
-  body:{
-    marginTop:100
+  body: {
+    marginTop: 100
   },
   container: {
     padding: 10,

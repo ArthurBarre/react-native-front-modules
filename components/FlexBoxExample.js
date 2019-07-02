@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { View, StyleSheet } from 'react-native'
 
 
-class FlexBox extends React.Component {
+class FlexBoxExample extends React.Component {
   render() {
     return (
       <View style={styles.container}>
@@ -38,4 +38,4 @@ const styles = StyleSheet.create({
     backgroundColor: 'orange'
   }
 })
-export default FlexBox;
+export default FlexBoxExample;

@@ -16,13 +16,14 @@ import ActivityIndicatorExample from './components/ActivityIndicatorExample';
 import PickerExample from './components/PickerExample';
 import SwitchContainer from './page/SwitchContainer';
 import GeolocationExample from './components/GeolocationExample';
+import AsyncStorageExample from './components/AsyncStorageExample'
 
 class App extends React.Component {
   render() {
     return (
       <View>
         <StatusBar barStyle="dark-content" hidden={false} backgroundColor="#00BCD4" translucent={true} />
-        <GeolocationExample />
+        <AsyncStorageExample />
       </View>
 
     );

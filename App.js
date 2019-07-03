@@ -15,13 +15,14 @@ import ModalExample from './components/ModalExample';
 import ActivityIndicatorExample from './components/ActivityIndicatorExample';
 import PickerExample from './components/PickerExample';
 import SwitchContainer from './page/SwitchContainer';
+import GeolocationExample from './components/GeolocationExample';
 
 class App extends React.Component {
   render() {
     return (
       <View>
         <StatusBar barStyle="dark-content" hidden={false} backgroundColor="#00BCD4" translucent={true} />
-        <SwitchContainer />
+        <GeolocationExample />
       </View>
 
     );

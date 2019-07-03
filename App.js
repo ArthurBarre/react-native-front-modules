@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import { StatusBar, View } from 'react-native';
 import ComponentExample from './components/ComponentExample'
 import FlexBoxExample from './components/FlexBoxExample'
 import ListExample from './components/ListExample';
@@ -13,12 +13,17 @@ import Routes from './Routes'
 import WebViewExample from './components/WebViewExample';
 import ModalExample from './components/ModalExample';
 import ActivityIndicatorExample from './components/ActivityIndicatorExample';
-import PickerExample from './components/PickerExample'
+import PickerExample from './components/PickerExample';
+import SwitchContainer from './page/SwitchContainer';
 
 class App extends React.Component {
   render() {
     return (
-      <PickerExample />
+      <View>
+        <StatusBar barStyle="dark-content" hidden={false} backgroundColor="#00BCD4" translucent={true} />
+        <SwitchContainer />
+      </View>
+
     );
   }
 }

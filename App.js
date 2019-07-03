@@ -12,11 +12,13 @@ import AnimationExample from './components/AnimationsExample';
 import Routes from './Routes'
 import WebViewExample from './components/WebViewExample';
 import ModalExample from './components/ModalExample';
+import ActivityIndicatorExample from './components/ActivityIndicatorExample';
+import PickerExample from './components/PickerExample'
 
 class App extends React.Component {
   render() {
     return (
-      <ModalExample />
+      <PickerExample />
     );
   }
 }

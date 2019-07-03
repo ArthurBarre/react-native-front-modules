@@ -8,11 +8,6 @@ class Buttons extends React.Component {
     }
     return (
       <View>
-        <Button
-          onPress={handlePress}
-          title="Button"
-          color="red"
-        />
         <TouchableOpacity
           onPress={handlePress}
         >
@@ -22,7 +17,13 @@ class Buttons extends React.Component {
         </TouchableOpacity>
         <View
           style={styles.container}
-        ></View>
+        >
+          <Button
+            onPress={handlePress}
+            title="Button"
+            color="red"
+          />
+        </View>
         <TouchableHighlight
           onPress={handlePress}
         >

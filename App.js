@@ -8,12 +8,13 @@ import ScrollViewExample from './components/ScrollViewExample';
 import ImageExample from './components/ImageExample';
 import HttpExample from './components/HttpExample';
 import ButtonsExample from './components/ButtonsExample';
+import AnimationExample from './components/AnimationsExample';
+import Routes from './Routes'
+
 class App extends React.Component {
   render() {
     return (
-      <View>
-        <ButtonsExample />
-      </View>
+      <Routes />
     );
   }
 }
